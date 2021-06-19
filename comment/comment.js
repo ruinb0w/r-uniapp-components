@@ -5,14 +5,26 @@ import submit from "../submit/submit.vue";
 
 export default {
   name: 'comment',
+  props: {
+    disableimage: Boolean
+  },
   data(){
     return {
-      show_comment: false
+      show_comment: false,
+      comment_anime: 'show'
     }
   },
   methods: {
     toggleComment(){
-      this.show_comment = !this.show_comment;
+      if(this.show_comment){
+        this.comment_anime = 'hide';
+        setTimeout(()=>{
+          this.show_comment = false;
+        }, 500);
+      }else{
+        this.comment_anime = 'show';
+        this.show_comment = true;
+      }
     }
   },
   components: {

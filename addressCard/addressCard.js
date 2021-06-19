@@ -6,7 +6,7 @@ export default{
   },
   props: {
     detail: Object,
-    shadow: Boolean,
+    theme: String,
   },
   methods: {
     openLocation(){}

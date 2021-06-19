@@ -1,19 +1,15 @@
 <template >
-  <navigator :class="['address-card', {shadow}]" :url="detail.url">
+  <navigator :class="['address-card', theme]" :url="detail.url">
     <view class="content">
       <!-- 标题 -->
       <view class="title">{{detail.title}}</view>
 
-      <!-- 位置 -->
-      <view class="location" @tap="openLocation">
-        <image class="icon" src="https://api.lcwmkj.cn/imgbed/sjzhxt/icons/location-active.svg" />
-        <view class="text">{{detail.address}}</view>
-      </view>
-
-      <!-- 时间 -->
-      <view class="time">
-        <image class="icon" src="https://api.lcwmkj.cn/imgbed/sjzhxt/icons/time-fill.svg" />
-        <view class="text">{{detail.time}}</view>
+      <view class="item-list">
+        <view class="item" @tap="openLocation" v-for="item in detail.item_list" :key="item.content">
+          <image class="icon" v-if="item.icon" :src="item.icon" />
+          <view class="title" v-if="item.title">{{item.title}}</view>
+          <view class="content">{{item.content}}</view>
+        </view>
       </view>
     </view>
 

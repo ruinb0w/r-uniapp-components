@@ -9,8 +9,13 @@
       font-size: .8rem;
       flex: 1;
     }
-    .value{
+    .content{
       flex: 2;
+      overflow:hidden; 
+      text-overflow:ellipsis;
+      display:-webkit-box; 
+      -webkit-box-orient:vertical;
+      -webkit-line-clamp:3; 
     }
   }
   .stat{
@@ -29,7 +34,7 @@
   .stat.wait{
     background: #aaa;
   }
-  .reason{
+  .comment{
     border-top: 1px solid #eee;
     margin-top: 2vh;
     padding-top: 2vh;
