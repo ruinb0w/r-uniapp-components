@@ -2,7 +2,9 @@
 
 components tail with **Box** mean it includes other components.
 
-theme for tail with Card
+## theme
+
+### theme for tail with Card
 
 |theme|padding|border-bottom|shadow|border|
 |-|-|-|-|-|
@@ -11,5 +13,5 @@ theme for tail with Card
 |shadow|true|true|false|false|
 |border|true|false|false|true|
 
-theme for tail with Form
+### theme for tail with Form
 ...
