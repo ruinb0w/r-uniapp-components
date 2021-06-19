@@ -20,4 +20,4 @@ const detail = {
 }
 ```
 prewview
-![()https://tva1.sinaimg.cn/large/008i3skNgy1grncemuetrj30b003djrc.jpg)]
+![](https://tva1.sinaimg.cn/large/008i3skNgy1grncemuetrj30b003djrc.jpg)
