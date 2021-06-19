@@ -1,0 +1,28 @@
+.star-box{
+  padding: 2vh 4vw;
+  margin: 2vh 4vw;
+  .title{
+    margin-bottom: 2vh;
+  }
+  .star-line{
+    display: flex;
+    justify-content: space-between;
+    .icon {
+      width: 2rem;
+      height: 2rem;
+    }
+  }
+  .submit{
+    text-align: center;
+    margin-top: 2vh;
+    padding: .5rem 1rem;
+    color: #fff;
+    background: var(--main-color);
+    border-radius: .5rem;
+  }
+}
+
+.star-box.shadow{
+  box-shadow: 0 0 24rpx 2rpx rgba(100,100,100,.1);
+  border-radius: .5rem;
+}

@@ -1,0 +1,35 @@
+.address-card{
+  margin: 2vh 4vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  .content{
+    .location{
+      color: #1e9fff;
+      font-size: .8rem;
+    }
+    .time{
+      font-size: .8rem;
+      color: #666;
+    }
+    .location, .time{
+      display: flex;
+      align-items: center;
+      margin: .5rem 0;
+      .icon {
+        margin-right: .5rem;
+        width: 1rem;
+        height: 1rem;
+      }
+    }
+  }
+  .icon{
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+}
+
+.address-card.shadow{
+  box-shadow: var(--main-shadow);
+  padding: 2vh 4vw;
+}

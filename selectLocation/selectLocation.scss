@@ -1,0 +1,17 @@
+.select-location{
+  margin: 2vh 4vw;
+  .locate{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #eee;
+    .input{
+      flex: 1;
+      padding: .5rem;
+    }
+    .icon{
+      flex-shrink: 0;
+      width: 1rem;
+      height: 1rem;
+    }
+  }
+}

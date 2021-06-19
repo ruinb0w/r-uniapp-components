@@ -1,0 +1,25 @@
+/* components/floatConfirm/floatConfirm.wxss */
+.my-addImage{
+  background: #fff;
+  margin: 2vh 4vw;
+  .title {
+    margin-bottom: 1vh;
+    .must {
+      color: red; 
+    }
+  }
+  .pic-box {
+    display: grid;
+    grid-template-columns: repeat(4, 20%);
+    grid-gap: 4vw;
+    justify-content: center;
+    overflow: auto; 
+    .pic-item {
+      width: 16vw;
+      height: 16vw;
+      padding: 10rpx; 
+    }
+  }
+}
+
+

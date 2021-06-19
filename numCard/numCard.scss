@@ -1,0 +1,22 @@
+.brief-info {
+  margin: 20rpx;
+  box-shadow: 0 0 24rpx 2rpx rgba(100, 100, 100, 0.1);
+  padding: 20rpx;
+  margin-top: 40rpx; 
+  .title {
+    font-size: 3.5vw;
+    color: #6a6a6a;
+    margin-bottom: 20rpx; 
+  }
+  .brief-box {
+    display: flex;
+    justify-content: space-around;
+    text-align: center; 
+    .item{
+      .value {
+        font-size: 1.5rem;
+        font-weight: bold; 
+      }
+    } 
+  }
+}

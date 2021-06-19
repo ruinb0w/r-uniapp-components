@@ -1,0 +1,29 @@
+.people-card{
+  display: flex;
+  align-items: center;
+  margin: 2vh 4vw;
+  padding: 2vh 4vw;
+  .avatar {
+    width: 20vw;
+    height: 20vw;
+    margin-right: 1rem;
+  }
+  .info-box{
+    .unit, .position{
+      font-size: .8rem;
+      color: #888;
+    }
+  }
+  .operation-list{
+    margin-left: auto;
+    text-align: center;
+    color: var(--main-color);
+    .operation{
+      padding: .5rem 1rem;
+    }
+  }
+}
+
+.people-card.shadow{
+  box-shadow: var(--main-shadow);
+}

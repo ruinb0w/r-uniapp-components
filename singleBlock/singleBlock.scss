@@ -1,0 +1,35 @@
+.block{
+  display: flex;
+  width: 36vw;
+  align-items: center;
+  background: #fff;
+  padding: 2vh 4vw;
+  border-radius: .5rem;
+  position: relative;
+  overflow: hidden;
+  .icon{
+    width: 2rem;
+    height: 2rem;
+  }
+  .title{
+    flex: 1;
+    text-align: center;
+  }
+  .decoration-dot {
+    background: var(--light-color);
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    top: -.5rem;
+    position: absolute;
+    right: -.5rem;
+  }
+}
+
+.block.shadow{
+  box-shadow: var(--main-shadow)
+}
+
+.touch{
+  opacity: .8;
+}

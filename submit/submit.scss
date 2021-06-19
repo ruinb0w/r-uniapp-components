@@ -1,0 +1,17 @@
+.submit{
+  width: 30vw;
+  color: #fff;
+  text-align: center;
+  background-color: var(--main-color);
+  padding: .5rem 1rem;
+  border-radius: .5rem;
+  margin: 10vh auto;
+}
+
+.submit.disabled {
+  background-color: #ddd;
+}
+
+.touch {
+  opacity: .8;
+}

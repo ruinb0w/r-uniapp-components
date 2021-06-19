@@ -1,0 +1,16 @@
+.manual {
+  font-size: .9rem;
+  position: relative;
+  color: #666;
+  text-indent: 1rem;
+  padding: 2vh 4vw;
+  border-bottom: 1vh solid #f6f6f6;
+  margin-bottom: 2vh;
+  .desc{
+    padding: 15rpx;
+    min-height: 10vh;
+    .bold{
+      color: var(--main-color);
+    }
+  }
+}

@@ -1,0 +1,15 @@
+.vote-box{
+  margin: 2vh 4vw;
+  .item-list{
+    .item{
+      margin: 2vh 4vw;
+      background: #f6f6f6;
+      padding: 2vh 4vw;
+      border-radius: .5rem;
+    }
+    .item.active{
+      background: var(--main-color);
+      color: #fff;
+    }
+  }
+}

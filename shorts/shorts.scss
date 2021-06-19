@@ -1,0 +1,37 @@
+.shorts {
+  background: #fff;
+  position: relative;
+  margin: 2vh 4vw;
+  padding: 30rpx 20rpx 20rpx;
+  border-radius: 10rpx;
+  overflow: hidden; 
+  .decorate-dot {
+    position: absolute;
+    top: -10rpx;
+    right: -15rpx;
+    width: 40rpx;
+    height: 40rpx;
+    background: var(--main-color);
+    border-radius: 50%; 
+  }
+  .shorts-list {
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    grid-template-columns: repeat(4, 20vw);
+    grid-gap: 2vw; 
+    .shorts-item{
+      .item-icon {
+        width: 60rpx;
+        height: 60rpx; 
+      }
+      .item-title {
+        font-size: .9rem; 
+      }
+    }
+  }
+}
+
+.shorts.shadow{
+  box-shadow: var(--main-shadow);
+}

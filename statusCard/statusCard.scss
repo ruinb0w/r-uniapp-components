@@ -1,0 +1,37 @@
+.status-card{
+  margin: 2vh 4vw;
+  padding: 2vh 4vw;
+  background: #fff;
+  .item{
+    display: flex;
+    align-items: center;
+    .title{
+      font-size: .8rem;
+      flex: 1;
+    }
+    .value{
+      flex: 2;
+    }
+  }
+  .stat{
+    font-size: .6rem;
+    padding: .2rem .4rem;
+    background: var(--main-color);
+    width: 2rem;
+    text-align: center;
+    color: #fff;
+    border-radius: .2rem;
+    margin-bottom: 2vh;
+  }
+  .stat.err{
+    background: #f85858;
+  }
+  .stat.wait{
+    background: #aaa;
+  }
+  .reason{
+    border-top: 1px solid #eee;
+    margin-top: 2vh;
+    padding-top: 2vh;
+  }
+}

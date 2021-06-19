@@ -1,0 +1,39 @@
+/* components/floatConfirm/floatConfirm.wxss */
+.my-picker {
+  margin: 2vh 4vw;
+  display: flex;
+  align-items: center; 
+  .title {
+    flex: 1; 
+    .must {
+      color: red; 
+    }
+  }
+  .content-box {
+    flex: 2;
+    background: #f6f6f6;
+    display: flex;
+    align-items: center;
+    padding: 0 14rpx; 
+    .picker {
+      height: 1.4rem;
+      padding: 14rpx 0;
+      flex: 1;
+      line-height: 1.4rem;
+      overflow: auto;
+    }
+    .icon {
+      width: 1.5rem;
+      height: 1.5rem;
+      flex-shrink: 0; 
+    }
+  }
+}
+
+.my-picker.twoline{
+  display: block;
+  .content-box{
+    background: none;
+    border-bottom: 1px solid #eee;
+  }
+}

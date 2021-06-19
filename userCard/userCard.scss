@@ -1,0 +1,47 @@
+.user-card {
+  background: #fff;
+  margin: 20rpx;
+  margin-top: 100rpx;
+  box-shadow: 0 0 24rpx 2rpx rgba(100, 100, 100, 0.1);
+  padding: 40rpx;
+  border-radius: 10rpx;
+  display: flex;
+  align-items: center;
+  position: relative;
+  overflow: hidden; 
+  .decorate {
+    position: absolute;
+    border-radius: 50%; }
+  .decorate.d1 {
+    right: -11rpx;
+    top: -76rpx;
+    width: 200rpx;
+    height: 200rpx;
+    background: var(--deep-color); }
+  .decorate.d2 {
+    right: -127rpx;
+    top: 38rpx;
+    width: 300rpx;
+    height: 300rpx;
+    background: var(--light-color); }
+  .avatar {
+    width: 80rpx;
+    height: 80rpx;
+    margin-right: 40rpx; }
+  .name-position{
+    .name {
+      font-weight: bold;
+      color: var(--main-color);
+      margin-bottom: 10rpx; 
+    }
+    .position {
+      text-align: center;
+      background: #333;
+      color: #fbed34;
+      font-size: .6rem;
+      padding: .2rem;
+      border-radius: 10rpx;
+      display: inline-block; 
+    }
+  } 
+}

@@ -1,0 +1,28 @@
+/* components/floatConfirm/floatConfirm.wxss */
+.default {
+  margin: 2vh 4vw;
+  display: flex;
+  align-items: center; 
+  .title {
+    flex: 1; 
+    .must {
+      color: red; 
+    }
+  }
+  .input {
+    flex: 2;
+    background: #f6f6f6;
+    padding: 14rpx; 
+  }
+  .input.disabled{
+    color: #777;
+  }
+}
+
+.twoline{
+  display: block;
+  .input{
+    background: #fff;
+    border-bottom: 1px solid #eee;
+  }
+}

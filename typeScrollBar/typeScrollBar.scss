@@ -1,0 +1,29 @@
+.type-scroll-bar{
+  display: flex;
+  margin: 0 4vw;
+  align-items: center;
+  justify-content: space-between;
+  .type-list{
+    white-space: nowrap;
+    width: 85vw;
+    .item{
+      display: inline-block;
+      padding: .5rem 1rem;
+    }
+    .item.active{
+      font-weight: bold;
+      color: var(--main-color);
+      border-bottom: .5vh solid var(--main-color);
+    }
+  }
+  .more{
+    flex-shrink: 0;
+    font-size: .8rem;
+  }
+}
+
+.type-scroll-bar.nourl{
+  .type-list{
+    width: 90vw;
+  }
+}

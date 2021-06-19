@@ -1,0 +1,77 @@
+.post-card{
+  padding: 2vh 4vw;
+  border-bottom: 1vh solid #eee;  
+  .title-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 2vh;
+    .title{
+      font-weight: bold;
+    }
+    .operation{
+      padding: .5rem;
+      width: 1rem;
+      height: 1rem;
+    }
+  }
+  .user-info{
+    display: flex;
+    margin-bottom: 2vh;
+    .avatar{
+      width: 3rem;
+      height: 3rem;
+      border-radius: 50%;
+      overflow: hidden;
+      margin-right: .5rem;
+    }
+    .right-box{
+      .time{
+        color: #888;
+        font-size: .8rem;
+      }
+    }
+  }
+  .content{
+    margin-bottom: 2vh;
+  }
+  .operation-bar{
+    margin: 2vh 4vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    .operation-item{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      color: #888;
+      .icon{
+        width: 1.5rem;
+        height: 1.5rem;
+      }
+    }
+  }
+}
+
+
+.post-card.sub{
+  border-bottom: 1px solid #eee;
+  .user-info{
+    .avatar{
+      width: 2rem;
+      height: 2rem;
+    }
+  }
+  .operation{
+    width: 1rem;
+    height: 1rem;
+    margin-left: auto;
+  }
+  .operation-bar{
+    font-size: .8rem;
+    .icon{
+      width: 1rem;
+      height: 1rem;
+    }
+  }
+}

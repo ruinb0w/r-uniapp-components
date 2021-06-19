@@ -1,0 +1,17 @@
+.seperator{
+  margin: 2vh 4vw;
+  display: flex;
+  align-items: center;
+  .title{
+    flex: 1;
+    text-align: center;
+    color: #888;
+    font-size: .8rem;
+  }
+  .line{
+    flex: 1;
+    height: 1px;
+    background: #eee;
+  }
+}
+

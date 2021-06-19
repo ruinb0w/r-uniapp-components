@@ -1,0 +1,27 @@
+.time-address-info{
+  padding: 1vh 0;
+  background-color: var(--main-bg);
+  .time{
+    justify-content: space-between;
+    color: #888;
+    .start-time{
+      display: flex;
+      align-items: center;
+    }
+  }
+  .address{
+    color: var(--main-color);
+  }
+
+  .time, .address {
+    display: flex;
+    align-items: center;
+    padding: 1vh 4vw;
+    font-size: .8rem;
+    .icon{
+      width: 1rem;
+      height: 1rem;
+      margin-right: .5rem;
+    }
+  }
+}

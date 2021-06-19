@@ -1,0 +1,23 @@
+/* components/floatConfirm/floatConfirm.wxss */
+.my-input {
+  margin: 30rpx;
+  display: flex;
+  align-items: center; }
+  .my-input .title {
+    flex: 1; }
+    .my-input .title .must {
+      color: red; }
+  .my-input .input {
+    flex: 1.5;
+    background: #fafafa;
+    padding: 14rpx; }
+  .my-input .verify-code {
+    flex: 1.5;
+    padding: 10rpx 0;
+    text-align: center; }
+    .my-input .verify-code .text {
+      display: inline;
+      padding: 10rpx;
+      color: #1e9fff;
+      border-radius: 10rpx;
+      border: 1px solid; }

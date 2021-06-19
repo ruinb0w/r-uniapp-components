@@ -1,0 +1,14 @@
+.info-card{
+  margin: 2vh 4vw;
+  padding: 2vh 4vw;
+  box-shadow: var(--main-shadow);
+  .title{
+    color: #888;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 1vh;
+    margin-bottom: 1vh;
+  }
+  .content {
+    font-size: .9rem;
+  }
+}

@@ -1,0 +1,31 @@
+/* components/floatConfirm/floatConfirm.wxss */
+.default {
+  align-items: center; 
+  margin: 2vh 4vw;
+  .title {
+    margin-bottom: 1vh;
+    .must {
+      color: red; 
+    }
+  }
+  .textarea {
+    padding: 14rpx;
+    width: 100%;
+    border-bottom: none;
+    box-sizing: border-box;
+    background: #f6f6f6;
+  }
+  .input.disabled{
+    color: #777;
+  }
+}
+
+.line{
+  .title{
+    margin-bottom: 0;
+  }
+  .textarea{
+    background: #fff;
+    border-bottom: 1px solid #eee;
+  }
+}

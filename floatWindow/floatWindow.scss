@@ -1,0 +1,33 @@
+.float-window{
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  .shadow{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(0,0,0,.5);
+  }
+  .slot-box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    min-height: 50vh;
+    min-width: 80vw;
+    border-radius: .5rem;
+  }
+  .close{
+    position: absolute;
+    width: 2rem;
+    height: 2rem;
+    bottom: -3rem;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
